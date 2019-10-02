@@ -1,0 +1,51 @@
+TASK 1
+
+ls
+pwd
+mkdir workspace
+cd workspace
+ls
+touch README.md
+cp RAEDME.md CHANGELOG.md
+
+TASK 2
+touch exercise.md
+mv exercise.md /tmp
+rm ../../../tmp/exercise.md
+
+TASK 3 [CAT Commands]
+touch umuzi.md recruits.md cohort.md
+echo "Hello fellow recruits and managers. Umuzi welcomes you all!" >> umuzi.md 
+echo "Hello Umuzi we are here to make you bigger and better!" >> recruits.md
+echo "We might have different cohorts but we are united." >> cohort.md
+cat umuzi.md recruits.md cohort.md
+cat umuzi.md recruits.md cohort.md > summary.md
+echo "The End" >> summary.md
+
+TASK 4 [The LOCATE Command]
+locate umuzi
+locate umuzi > search_results.md
+
+TASK 5 [The LOCATE Command Cont]
+
+
+cd ~/ Documents
+touch pad.md
+cd ~/ Desktop
+mkdir work
+cp ../Documents pad.md pad_copy.md
+locate updatedb
+cd
+locate pad_copy.md
+
+TASK 6
+locate *pdf
+locate *pdf > search_results.md
+mv search_results.md Desktop/
+ls -l
+
+TASK 7
+nano my_bio.md
+mkdir my_files
+cd
+mv my_bio my_files/

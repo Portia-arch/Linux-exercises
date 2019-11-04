@@ -39,10 +39,9 @@ cd
 locate pad_copy.md
 
 TASK 6
-locate *pdf
-locate *pdf > search_results.md
-mv search_results.md Desktop/
-ls -l
+find ~/ *.pdf
+find ~/ *.pdf >> search_results.md
+find ~/ -atime 1
 
 TASK 7
 nano my_bio.md

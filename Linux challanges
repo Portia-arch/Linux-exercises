@@ -45,6 +45,5 @@ find / -atime 1
 
 TASK 7
 nano my_bio.md
-mkdir my_files
-cd
-mv my_bio my_files/
+mkdir my_files && mv my_bio.md my_files/
+
